@@ -1,0 +1,157 @@
+/* Menambahkan jarak di bagian atas body */
+body {
+  padding-top: 56px; /* Sesuaikan sesuai kebutuhan */
+}
+
+/* Gaya untuk tombol di header card */
+.card-header button {
+  margin-right: 10px;
+}
+
+/* Gaya untuk tabel */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+/* Gaya untuk header tabel */
+.table thead th {
+  background-color: #212529;
+  color: #fff;
+}
+
+/* Gaya untuk baris tabel */
+.table tbody tr {
+  transition: background-color 0.3s;
+}
+
+/* Efek hover pada baris tabel */
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Gaya untuk badan modal */
+.modal-body {
+  padding: 20px;
+}
+
+/* Gaya untuk header modal */
+.modal-header {
+  background-color: #212529;
+  color: #fff;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Gaya untuk judul modal */
+.modal-title {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Gaya untuk footer */
+footer {
+  padding: 24px 0;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+/* Menyesuaikan gaya navbar brand */
+.navbar-brand {
+  margin-left: 15px;
+}
+
+/* Gaya untuk sidebar */
+.sb-sidenav {
+  background-color: #212529;
+}
+
+/* Gaya untuk item menu di sidebar */
+.sb-sidenav-menu .nav-link {
+  color: #adb5bd;
+}
+
+/* Gaya untuk item menu sidebar yang aktif */
+.sb-sidenav-menu .nav-link.active {
+  color: #fff;
+  background-color: #212529;
+}
+
+/* Menambahkan ruang di bagian bawah sidebar */
+.sb-sidenav-menu {
+  margin-bottom: 40px;
+}
+
+/* Gaya untuk tombol sidebar toggle */
+#sidebarToggle {
+  color: #fff;
+}
+
+/* Gaya untuk gambar yang dapat di-zoom */
+.zoomable {
+  width: 100px;
+  transition: transform 0.3s ease;
+}
+
+.zoomable:hover {
+  transform: scale(1.5);
+}
+
+
+.login1 {
+  background-color: #180184;
+}
+
+.container {
+  width: 31.25em;
+  background-color: #f8f8f8;
+  padding: 1.4em 3.75em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.7em;
+  box-shadow: 0 1em 4em rgba(71, 50, 4, 0.3);
+}
+
+.login1 h2{
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: rgb(6, 74, 127);
+}
+
+input,
+#submit {
+  border: none;
+  outline: none;
+  display: block;
+}
+
+input{
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 2em;
+  font-size: 20px;
+  padding: 1em 0 0.5em 0.5em;
+  border-bottom: 2px solid #202020;
+}
+
+#submit{
+  position: relative;
+  left: 0;
+  font-size: 1.1em;
+  width: 7em;
+  background-color: #096292;
+  color: white;
+  padding: 0.8em 0;
+  margin-top: 2em;
+  border-radius: 0.3em;
+}
+
+#message-ref {
+  font-size: 0.9em;
+  margin-top: 1.5em;
+  color: #34bd34;
+  visibility: hidden;
+}
